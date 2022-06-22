@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/首页.css" type="text/css">
+    <script>
+        function f(obj) {
+            p = obj.getElementsByTagName('p');
+            if (p[0].innerText == '1'){
+                p[0].style.color = '#d56964';
+                p[1].style.color = '#d56964';
+            }
+            if (p[0].innerText == '2'){
+                p[0].style.color = '#05bf6c';
+                p[1].style.color = '#05bf6c';
+            }
+            if (p[0].innerText == '3'){
+                p[0].style.color = '#ED6D00';
+                p[1].style.color = '#ED6D00';
+            }
+            if (p[0].innerText == '4'){
+                p[0].style.color = '#ED6D00';
+                p[1].style.color = '#ED6D00';
+            }
+            if (p[0].innerText == '5'){
+                p[0].style.color = '#d56964';
+                p[1].style.color = '#d56964';
+            }
+            if (p[0].innerText == '6'){
+                p[0].style.color = '#05bf6c';
+                p[1].style.color = '#05bf6c';
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="rcmd">
+    <div id="rcmd1">
+        <div id="rcmd2">——————————————·云端汇报·——————————————</div>
+        <div id="rcmd3">
+            <div id="rcmd3_1" onclick="f(this)">
+                <video src="./3.mp4" width="912" height="513" controls autoplay loop ></video>
+                
+            </div>
+            
+</body>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
